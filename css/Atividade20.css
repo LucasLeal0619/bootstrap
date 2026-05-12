@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-boot {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.form-boot {
+    margin: auto;
+    width: 300px;
+    border-radius: 20px;
+    background-color: plum;
+    padding: 30px;
+}
+
+.img-boot {
+    display: flex;
+    justify-content: center;
+}
+
+.title-boot {
+    margin: auto;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.mb-3 {
+    padding: 10px;
+}
+
+.btn {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+    color: hotpink;
+}
+
+.btn-area {
+    display: flex;
+    justify-content: center;
+}

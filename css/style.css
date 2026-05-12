@@ -1,0 +1,35 @@
+
+.form-boot {
+    width: 700px;
+    /* largura */
+    margin: auto;
+    /* form no meio da tela */
+    margin-top: 100px;
+    /* distância do topo */
+    background-color: rgba(240, 175, 175, 0.5);
+    /* Cor de fundo do formulário */ 
+    padding: 50px; 
+    border-radius: 10px; 
+    box-shadow: 20px 10px 10px 0px rgba(235, 134, 134, 0.5);
+}
+
+.row{
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px;
+}
+
+
+.btn{
+    padding: 20px; 
+    background-color: brown; 
+    border: none;
+    color: blue;
+    margin-top: 40px;
+}
+
+.btn:hover{
+    background-color: black; 
+    color: white; 
+    border: none;
+}
